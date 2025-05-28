@@ -1,1 +1,2 @@
-SELECT (myfunc(x)).a, (myfunc(x)).b, (myfunc(x)).c FROM some_table;
+ALTER TABLE measurement
+    DETACH PARTITION measurement_y2015m12;
