@@ -1,0 +1,11 @@
+[project]
+name = "migration-tools-comparison"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "rich>=14.0.0",
+    "simple-ddl-parser>=1.7.1",
+    "sqlglot[rs]>=26.22.0",
+]
